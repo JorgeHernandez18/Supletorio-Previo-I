@@ -51,10 +51,13 @@ fetch(url_deportes)
     .then(res => res.json())
     .then(data => {
         data.forEach((sport, i) => {
-            if (i != 3) {
+            if (i <= 2) {
                 const p = document.createElement('p')
+                const line = document.createElement('hr')
+                line.setAttribute("style", "background-color: blue; height: 0.1vh")
                 p.innerHTML = sport.titulo
                 aside.appendChild(p)
+                aside.appendChild(line)
             }
         })
     })
@@ -67,10 +70,13 @@ fetch(url_tec)
     .then(res => res.json())
     .then(data => {
         data.forEach((tec, i) => {
-            if (i != 3) {
+            if (i <= 2) {
                 const p = document.createElement('p')
+                const line = document.createElement('hr')
                 p.innerHTML = tec.titulo
+                line.setAttribute("style", "background-color: blue; height: 0.1vh;")
                 tecno.appendChild(p)
+                tecno.appendChild(line)
             }
         })
     })

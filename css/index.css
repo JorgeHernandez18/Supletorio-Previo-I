@@ -1,3 +1,7 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 .container {
     display: flex;
 }
@@ -49,13 +53,13 @@
 
 .content {
     width: 80%;
+    margin-right: 5vh;
 }
 
 .imagen {
     width: 80%;
     height: 60vh;
     border: 1px solid #000;
-
 }
 
 .sport {
@@ -73,8 +77,69 @@
 .todo {
     background-color: blue;
     color: white;
-    padding: 1.5vh 67vh;
+    padding: 1.5vh 66vh;
     text-decoration: none;
     cursor: pointer;
     border-radius: none;
+}
+
+.red{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.paginas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paginas p{
+    padding: 0vh 8vh;
+}
+
+.span{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 0.375rem;
+    background-color: blue;
+}
+
+.span-color{
+    background-color: red;
+}
+
+.span-color_2{
+    background-color: yellow;
+}
+
+.paginas i{
+    font-size: 3.75rem;
+    line-height: 1;
+    color: white;
+}
+
+.redes a{
+    color: blue;    
+}
+
+.line{
+    width: 100%;
+    height: 1rem;
+    margin-top: 3vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: blue;
+}
+
+.footer{
+    background-color: #B8B9BA;
+    text-align: center;
+    padding: 2vh 0;
 }
