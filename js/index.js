@@ -28,8 +28,6 @@ fetch(url)
                 a.href = 'html/noticia1.html'
                 if(i === 2){
                     a.href = 'html/noticia6.html'
-                }else{
-                    a.href = "#"
                 }
                 
                 
