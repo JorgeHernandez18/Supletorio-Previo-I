@@ -25,9 +25,9 @@ fetch(url)
                 const h = document.createElement('h2')
                 const p = document.createElement('p')
                 const a = document.createElement('a')
-                a.href = '../html/noticia1.html'
+                a.href = 'html/noticia1.html'
                 if(i === 2){
-                    a.href = '../html/noticia6.html'
+                    a.href = 'html/noticia6.html'
                 }else{
                     a.href = "#"
                 }
